@@ -19,12 +19,18 @@ Dynamic teacher-forcing rate was implemented to improve performance. It takes ar
   <img src="Attention/attention.png" width="200"/>
 </div>
 
-Training results:
+Training result samples:
 ```
 Label: 
 the other nods understanding sweeps the dust slate level with his hand and with his forefinger inscribes similar characters they are talking they cannot speak to each other but they can write
 Prediction:
 the other nods understanding swipss the dust slate level with his hand and with his forefinger inscribes somelar characters they are talking they cannot speak to each other but they can rrite
+```
+```
+Label:
+as she lay dying he sat up whole nights with her in a great chair would suffer no bdd to give her medicine or even cook her food but himself and read novels to her in her indervals of ease
+Prediction:
+as she lay dying he sat up whole nights with her in a great chair would suffer nobody to give her medicine or even cook her food but himself and read novels to her in her intervals of ease
 ```
 
 ## Results
