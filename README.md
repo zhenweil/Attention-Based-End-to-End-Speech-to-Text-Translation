@@ -28,9 +28,9 @@ the other nods understanding swipss the dust slate level with his hand and with 
 ```
 ```
 Label:
-as she lay dying he sat up whole nights with her in a great chair would suffer no bdd to give her medicine or even cook her food but himself and read novels to her in her indervals of ease
-Prediction:
 as she lay dying he sat up whole nights with her in a great chair would suffer nobody to give her medicine or even cook her food but himself and read novels to her in her intervals of ease
+Prediction:
+as she lay dying he sat up whole nights with her in a great chair would suffer no bdd to give her medicine or even cook her food but himself and read novels to her in her indervals of ease
 ```
 
 ## Results
