@@ -16,6 +16,6 @@ python3 main.py
 ```
 Dynamic teacher-forcing rate was implemented to improve performance. It takes around 10 epoch for the model to form a diagonal attention plot. After around 35 epochs, the model started converging and achieved edit distance of about 10. 
 <div align="center">
-  <img src="Attention/attention.png" width="500"/>
+  <img src="Attention/attention.png" width="200"/>
 </div>
 ## Results
