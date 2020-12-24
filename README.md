@@ -18,6 +18,7 @@ Dynamic teacher-forcing rate was implemented to improve performance. It takes ar
 <div align="center">
   <img src="Attention/attention.png" width="200"/>
 </div>
+
 Training results:
 ```
 Label: 
@@ -25,4 +26,5 @@ the other nods understanding sweeps the dust slate level with his hand and with 
 Prediction:
 the other nods understanding swipss the dust slate level with his hand and with his forefinger inscribes somelar characters they are talking they cannot speak to each other but they can rrite
 ```
+
 ## Results
