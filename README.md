@@ -37,6 +37,7 @@ as she lay dying he sat up whole nights with her in a great chair would suffer n
 
 ## Validation
 The best validation edit distance is around 20. Since no supervision was provided during validation, the edit distance became higher compared to the training edit distance.
+
 Samples of validation results:
 ```
 Label: 
