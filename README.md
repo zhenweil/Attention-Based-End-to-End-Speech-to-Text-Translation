@@ -21,4 +21,8 @@ Dynamic teacher-forcing rate was implemented to improve performance. It takes ar
 Training results:
 ```
 Label: 
+the other nods understanding sweeps the dust slate level with his hand and with his forefinger inscribes similar characters they are talking they cannot speak to each other but they can write
+Prediction:
+the other nods understanding swipss the dust slate level with his hand and with his forefinger inscribes somelar characters they are talking they cannot speak to each other but they can rrite
+```
 ## Results
