@@ -47,3 +47,5 @@ i declared myself quite willing for it was necessary to brazen it out after havi
 Prediction:
 i declared myself quite willing for it was necessary comprision it out after having bentred as far as i had done
 ```
+## Reference
+[1]Chan, W., Jaitly, N., Le, Q. V., and Vinyals, O., “Listen, Attend and Spell”, <i>arXiv e-prints</i>, 2015.
