@@ -4,8 +4,10 @@ The model translates speech recordings to their corresponding transcripts with a
 This is a character-based prediction model that consists of an encoder(listener) and an attention-based decoder(speller). The encoder uses a pyramidal-LSTM to extract speech embeddings, and the decoder learns to focus on important portion of embeddings and is able to generate corresponding translations. Recordings were converted to spectrograms ahead of time, which contain 40 frequency bands. 
 ## Installation
 ```
-conda env create -f environment.yaml`
+cd Environments
+conda env create -f environment.yaml
 pip install -r requirements.txt
+cd ..
 mkdir Data
 mkdir Checkpoints
 ```
