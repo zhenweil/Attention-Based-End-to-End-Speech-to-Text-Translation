@@ -16,7 +16,7 @@ mkdir Checkpoints
 cd Code
 python3 main.py
 ```
-Dynamic teacher-forcing rate was implemented to improve performance. It takes around 10 epoch for the model to form a diagonal attention plot, which is shown below. The vertical direction stands for embedding, and the horizontal direction represents time steps.  After about 35 epochs, the model started converging and finally achieved edit distance of around 10. 
+Dynamic teacher-forcing rate was implemented to improve performance. It takes around 10 epoch for the model to form a diagonal attention plot, which is shown below. The vertical direction stands for embedding, and the horizontal direction represents time steps.  After about 35 epochs, the model started converging and finally achieved edit distance of around 10. The label transcriptions contain 110 characters in average.
 <div align="center">
   <img src="Attention/attention.png" width="200"/>
 </div>
@@ -36,7 +36,7 @@ as she lay dying he sat up whole nights with her in a great chair would suffer n
 ```
 
 ## Validation
-The best validation edit distance is around 20. Since no supervision was provided during validation, the edit distance became higher compared to the training edit distance.
+Achieved best validation edit distance of 20. Since no supervision was provided during validation, the edit distance became higher compared to the training edit distance.
 
 Samples of validation results:
 ```
