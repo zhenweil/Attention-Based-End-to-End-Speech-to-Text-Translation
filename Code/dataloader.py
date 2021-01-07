@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset 
 from torch.nn.utils import rnn
-is_mini = False
+
 def load_data(PATH):
     speech_train = np.load(PATH + 'train.npy', allow_pickle=True, encoding='bytes')
     speech_valid = np.load(PATH + 'dev.npy', allow_pickle=True, encoding='bytes')
@@ -27,10 +27,7 @@ def transform_letter_to_index(transcript, letter_list):
         sentense_list = []
         for word in sentense:
             for char_num in word:
-                if(is_mini == False):
-                    sentense_list.append(letter2index[chr(char_num)])
-                else:
-                    sentense_list.append(letter2index[char_num])
+                sentense_list.append(letter2index[chr(char_num)])
             sentense_list.append(letter2index[' '])
         sentense_list.pop()
         sentense_list.append(letter2index['<eos>'])
