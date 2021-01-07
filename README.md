@@ -1,7 +1,7 @@
 # Attention-based End-to-end Speech-to-text Translation Neural Network
 The model translates speech recordings to their corresponding transcripts with an attention mechanism. 
 ## Introduction
-This is a character-based prediction model consisting of an encoder(listener) and an attention-based decoder(speller). The encoder uses a pyramidal-LSTM to extract speech embeddings, and the decoder learns to focus on important portion of embeddings and is able to generate corresponding translations. Recordings were converted to spectrograms ahead of time, which contain 40 frequency bands. 
+This is a character-based prediction model consisting of an encoder(listener) and an attention-based decoder(speller). The encoder uses a pyramidal-LSTM to extract speech embeddings. The decoder learns to focus on important portion of embeddings automatically and then generate corresponding translations. Before being fed into neural nerword, recordings were converted to spectrograms which contain 40 frequency bands. 
 ## Installation
 ```
 cd Environments
