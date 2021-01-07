@@ -1,7 +1,7 @@
 # Attention-based End-to-end Speech-to-text Transription Neural Network
 The model transcribes speech utterances to characters.
 ## Introduction
-This is a character-level trancription model consisting of an encoder(listener) and a decoder(speller). The encoder uses a pyramidal-LSTM to extract speech embeddings. The decoder learns to focus on important portion of embeddings automatically and then generates the corresponding translations. Before fed into neural nerwork, recordings were converted to spectrograms which contain 40 frequency bands. 
+This is a character-level trancription model consisting of an encoder(listener) and a decoder(speller). The encoder uses a pyramidal-LSTM to extract speech embeddings. The decoder learns to automatically focus on important portion of embeddings and then generates the corresponding translations. Before fed into neural nerwork, recordings were converted to spectrograms which contain 40 frequency bands. 
 ## Installation
 ```
 cd Environments
