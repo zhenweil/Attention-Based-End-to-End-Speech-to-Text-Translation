@@ -58,7 +58,7 @@ def main():
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_test)
 
     print("start training")
-    start_epoch = param['resume_from']
+    start_epoch = param['resume_from'] + 1
 
     for epoch in range(start_epoch, start_epoch + param['nepochs']):
         train(model, train_loader, criterion, optimizer, epoch)
