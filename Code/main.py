@@ -61,7 +61,7 @@ def main():
     start_epoch = param['resume_from']
 
     for epoch in range(start_epoch, start_epoch + param['nepochs']):
-        train(model, train_loader, val_loader, criterion, optimizer, epoch)
+        train(model, train_loader, criterion, optimizer, epoch)
         path = param['checkPointPath'] + "/epoch" + str(epoch)
         torch.save({
             'epoch': epoch,
