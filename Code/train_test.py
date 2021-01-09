@@ -20,7 +20,7 @@ def write_csv(fname, prediction):
         csvwriter.writerow(fields)
         csvwriter.writerows(rows)
 
-def train(model, train_loader, val_loader, criterion, optimizer, epoch):
+def train(model, train_loader, criterion, optimizer, epoch):
     model.to(DEVICE)
     start = time.time()
     iteration = 1
