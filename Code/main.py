@@ -59,8 +59,7 @@ def main():
 
     print("start training")
     start_epoch = param['resume_from']
-    dist = validation(model, val_loader, index2letter)
-    test(model, test_loader, index2letter)
+
     for epoch in range(start_epoch, start_epoch + param['nepochs']):
         train(model, train_loader, val_loader, criterion, optimizer, epoch)
         path = param['checkPointPath'] + "/epoch" + str(epoch)
